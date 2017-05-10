@@ -14,6 +14,7 @@ public final class ConstantsPool {
         public static final String x = "x";
         public static final String y = "y";
         public static final String z = "z";
+        public static final String aaa = "aaa";
 
     }
 
