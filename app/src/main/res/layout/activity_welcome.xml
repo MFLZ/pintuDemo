@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/select_difficulty"
+        android:layout_marginTop="250dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="#50808080"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:text="选择难度" />
+
+    <Button
+        android:id="@+id/setting"
+        android:layout_marginTop="15dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="#50808080"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:text="设置拼图" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_marginTop="15dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="#50808080"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:text="开始" />
+
+
+    <Button
+        android:id="@+id/define"
+        android:layout_marginTop="15dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="#50808080"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:text="自定义" />
+</LinearLayout>

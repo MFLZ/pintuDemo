@@ -7,14 +7,47 @@
     android:layout_height="match_parent"
     android:background="@color/colorAccent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.admin.pintu.MainActivity"
+    tools:context="com.example.admin.pintu.activity.MainActivity"
     tools:showIn="@layout/activity_main">
 
     <GridLayout
         android:id="@+id/gl"
-        android:columnCount="4"
-        android:rowCount="6"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:layout_alignParentLeft="true">
+        <Button
+            android:id="@+id/preview_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="#50808080"
+            android:text="预览(长按)"/>
+        <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:background="#50808080"
+        android:textColor="@color/actionsheet_blue"
+        android:text="0"/>
+        <TextView
+            android:id="@+id/tv_tip"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:background="#50808080"
+            android:textColor="@color/actionsheet_blue"/>
+
+    </LinearLayout>
+
 </RelativeLayout>
